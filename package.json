@@ -1,0 +1,39 @@
+{
+  "name": "pixijs-spaceship-game",
+  "version": "1.0.0",
+  "description": "Spaceship game",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavloskii/Pixijs-Spaceship-game.git"
+  },
+  "keywords": [
+    "spaceship",
+    "game"
+  ],
+  "author": "Igor Pavloski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavloskii/Pixijs-Spaceship-game/issues"
+  },
+  "homepage": "https://github.com/pavloskii/Pixijs-Spaceship-game#readme",
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "path": "^0.12.7",
+    "webpack": "^4.32.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "copy-webpack-plugin-advanced": "^2.0.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
